@@ -3,9 +3,29 @@
 }
 
 .hw {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 80vw;
+}
 
+.hr {
+    margin-bottom: 15px;
+    background-color: darkgrey;
 }
 
 .hwTitle {
+    max-width: 80vw;
+    margin-left: 155px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
 
+.hwMessage {
+    display: grid;
 }
