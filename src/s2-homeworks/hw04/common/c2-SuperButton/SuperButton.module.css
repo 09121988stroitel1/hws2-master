@@ -1,16 +1,22 @@
 .button {
+    background-color: #0066cc;
+    border-radius: 2px;
 }
 
 .disabled {
+    opacity: 0.5;
 }
 
 .secondary {
+    background-color: #0066cc;
 }
 
 .default {
+    background-color: #00cc22;
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
@@ -20,17 +26,22 @@
 }
 
 .secondary:hover {
+    cursor: pointer;
 }
 
 
 .default:active {
+    background-color: #cc9c00;
 }
 
 .secondary:active {
+    background-color: #cc9c00;
 }
 
 .red:active {
+    background-color:brown;
 }
 
 .button:disabled {
+    background-color: #d1d1d1;
 }
